@@ -3,7 +3,7 @@ from flask import Flask, request
 from pymessenger.bot import Bot
 
 app = Flask(__name__)
-ACCESS_TOKEN = 'EAAEZA6LrAOPkBANsbL49hbWZA5grXuNUuIOcmx3jMxQ7BbkDILA2yG0EmpMLh2V0emN1n9R3BGedvAj0dMGEI3mdMZAbzf554Bzf2AAPRWtbQGdspj0Nm2ytzHF5pZCaunWZBxN0YPLNHTdsnMMTfbuIIvwwWhybeftZCYxv0p2AZDZD'
+ACCESS_TOKEN = 'EAAEZA6LrAOPkBAAF9IKRA8qtxzyxpg6vOCe2BcxDApFvWCMPVxQPTglUooWTooGe94BZCtFJg6ZA3lLlyWQEKogeUFJYNnMZC2xjQZBmL0ZC1UZCCsMZBPohhC57MQpBfrWKiIGSTIpu5KOJb6C5h1X46Gj7nv3pMhWPkC0sJznNaAZDZD'
 VERIFY_TOKEN = 'facebook_verify_token'
 bot = Bot(ACCESS_TOKEN)
 
